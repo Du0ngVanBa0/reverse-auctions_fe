@@ -1,0 +1,39 @@
+.btn-luachon {
+   
+    display: inline;
+    height: max-content;
+    margin-bottom: 10px;
+  }
+  
+  .centered-buttons {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .centered-buttons button {
+    border: 2px solid transparent;
+    border-radius: 0;
+    background-color: #A5D6F1;
+    color: #fff;
+    cursor: pointer;
+    width: 281px;
+    height: 40px;
+    margin: 0; /* Loại bỏ khoảng cách giữa các nút */
+    font-size: 24px;
+  }
+  
+  #da-ket-thuc {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  #sap-ket-thuc {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .btn-selected {
+    background-color: #34AEF1 !important;
+  }  

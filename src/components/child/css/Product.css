@@ -1,0 +1,124 @@
+/* .timetitle {
+    margin-bottom: 10px;
+    font-weight: bold; font-size: 18px; color: #BBB8B8;
+}
+.time {
+    margin-bottom: 10px;
+    font-weight: bold; font-size: 20px; color: black;
+}
+.hinh {
+  border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  width: 298px;
+  height: 230px;
+}
+.titlepr {
+    margin: 15px auto;
+    font-weight: bolder; font-size: 20px;
+}
+
+.item {
+
+    margin-top: 30px;
+    width: 350px;
+    height: 500px;
+    background-color: white; 
+    border: 1px solid #BBB8B8 ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box; 
+  }
+  .gia { width: 100%;
+  }
+  .gia-kd,
+   .gia-ht {
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+  
+  }
+  .gia-kd div,
+  .gia-ht div {
+    margin: 2px; 
+    color: #BBB8B8;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hinh-san-pham {
+    width: 298px;
+    height: 230px;
+    border: 1px solid #BBB8B8 ;
+    background-color: #FAFAFA;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .button {
+
+    width: 120px;
+    height: 32px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #A5D6F1;
+    border: none;
+  }
+  .button :hover {
+    background-color: rgb(18, 78, 131);
+  }
+   */
+   .box {
+    background-color: white; 
+    border: 1px solid #BBB8B8 ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 350px;
+    height: 500px;
+    flex: 1; 
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  .tenphongdg {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .product-box {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin: 10px; 
+    padding: 10px; 
+  }
+  
+  
+  .tensanpham {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .time-container, .price-container, .lowest-price-container {
+    display: flex; 
+    margin-bottom: 5px;
+    background-color: #A5D6F1; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 100%;
+    text-align: center;
+    justify-content: center; 
+    box-sizing: border-box;
+  }
+ .hv :hover {
+    opacity: 50%;
+  }

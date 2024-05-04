@@ -1,0 +1,47 @@
+.timkiemnangcao {
+    display: flex; /* Hiển thị các phần tử con theo hàng ngang */
+    justify-content: center; /* Canh giữa các phần tử con theo chiều ngang */
+    align-items: center; /* Canh giữa các phần tử con theo chiều dọc */
+}
+
+.tentk, .combo-box {
+    font-size: 20px; /* Cỡ chữ */
+    color: gray; /* Màu chữ */
+}
+.tentk {
+    margin-left: 30px;
+}
+
+.combo-box {
+    margin-left: 20px; /* Khoảng cách với class tentk */
+    position: relative; /* Để có thể tùy chỉnh mũi tên */
+}
+
+.combo-box select {
+    padding: 10px; /* Khoảng cách giữa nội dung và viền */
+    font-size: inherit; /* Kế thừa cỡ chữ từ parent */
+    color: inherit; /* Kế thừa màu chữ từ parent */
+    border: none; /* Loại bỏ đường viền */
+    background-color: transparent; /* Nền trong suốt */
+    position: relative; /* Để có thể tùy chỉnh mũi tên */
+    -webkit-appearance: none; /* Loại bỏ giao diện mặc định của select */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.combo-box::after {
+    content: ''; 
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Đặt vị trí mũi tên ở cạnh phải của combo box */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid gray; /* Màu mũi tên */
+}
+
+.combo-box select:hover {
+    cursor: pointer; /* Con trỏ chuột khi di chuột qua */
+}

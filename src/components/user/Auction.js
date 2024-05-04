@@ -28,7 +28,7 @@ export default function Auction() {
     setIsLoading(true);
     await doChat(data);
     setIsLoading(false);
-  }
+  }; 
   return (
     <>
      <Formik

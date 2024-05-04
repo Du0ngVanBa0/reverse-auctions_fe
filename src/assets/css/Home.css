@@ -1,0 +1,37 @@
+.anh-qc img { width:350px; height:300px}
+.quang-cao {
+    margin-bottom: 50px;
+    display: flex; /* Sử dụng flexbox */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  #chu-qc {
+    display: flex; /* Sử dụng flexbox */
+    flex-direction: column; /* Xếp theo chiều dọc */
+    margin-left: 90px;
+  }
+  
+  #btn-thu_ngay {
+    width: 250px; /* Độ rộng */
+    height: 60px; /* Chiều cao */
+    border-radius: 50px; /* Bo tròn */
+    border: none; /* Loại bỏ viền */
+    background-color: #A5D6F1; /* Màu nền */
+    color: #fff; /* Màu văn bản */
+    font-size: 20px; /* Cỡ chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  #anh-qc {
+    margin-left: auto; /* Di chuyển sang bên phải */
+    margin-right: 100px;
+  }
+  #chu-qc p {
+    color: #A5D6F1;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }

@@ -1,0 +1,219 @@
+
+
+.topsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #A5D6F1;
+  }
+  
+  .vietnam-text-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vietnam-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .date-text {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .login-register {
+    display: flex;
+  }
+  
+  .login-link,
+  .register-link {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .bottomsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #E4E3E3;
+  }
+  
+  .navbar {
+    background-color: #E4E3E3;
+    margin-bottom: 0; 
+  }
+  
+  .main-content {
+    background-color: #fff;
+  }
+  .search-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 200px;
+  }
+  
+  .icon-button {
+    margin-left: 10px;
+  }
+  
+  
+  .container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    padding: 16px;
+  }
+  
+  .boxx {
+    flex: 1; 
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .tenphongdg {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .product-box {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin: 10px; 
+    padding: 10px; 
+  }
+  
+  
+  .tensanpham {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .button-container {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
+  }
+  .button-container .ant-btn { 
+    flex: 1;
+    margin: 0 10px; 
+  }
+  
+  .time-and-price {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .time-container, .price-container, .lowest-price-container {
+    display: flex; 
+    margin-bottom: 5px;
+    background-color: #A5D6F1; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 100%;
+    text-align: center;
+    justify-content: center; 
+  }
+  
+  .message-box {
+    border: 1px solid #34AEF1; 
+    border-radius: 15px;
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+    width: 40%;
+    height: 150px; 
+  }
+  
+  .chat-input {
+    margin-top: 10px;
+  }
+  
+  .nhap-gia {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px; 
+    padding: 10px; 
+  }
+  
+  .price-button {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .price-button button {
+    margin: 10px;  
+    font-weight: bold;
+    background-color: #A5D6F1;
+    border-radius: 15px;
+    color: #fff;
+    height: 100px;
+    width: 200px;
+  }
+  
+  .ant-table {
+    border: 1px solid #A5D6F1;
+  }
+  .ant-table-row:last-child .ant-table-cell {
+    color: red; 
+  }
+  
+  .logo-frame {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logos {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 10px 0;
+  }
+  
+  .logos img {
+    width: 150px; 
+    margin: 0 30px; 
+  }
+  
+  .notify-box {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .notify {
+    background-color: #d9d9d9;
+    width: 300px; 
+    height: 500px; 
+    margin: 0 90px; 
+  
+  }
+  .btDG {
+    height: 50px;
+    width: 150px;
+  }
+  .btHuy {height: 50px;
+    width: 150px;}
+.taophien {
+  
+}

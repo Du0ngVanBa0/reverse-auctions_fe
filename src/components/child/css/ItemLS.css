@@ -1,0 +1,100 @@
+#lichsu1 {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    height: 221px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #A5D6F1;
+    align-items: flex-start;
+    align-items: center;
+    position: relative; /* Đặt vị trí tương đối cho .lichsu */
+    margin-bottom: 50px;
+}
+#tt1 {
+    width: 170px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    background-color: #A5D6F1;
+    position: absolute; /* Đặt vị trí tuyệt đối cho .tt */
+    top: 0; /* Đặt vị trí ở trên cùng */
+    right: 0; /* Đặt vị trí ở bên phải */
+}
+#lichsu2 {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    height: 221px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #64C536;
+    align-items: flex-start;
+    align-items: center;
+    position: relative; /* Đặt vị trí tương đối cho .lichsu */
+}
+#tt2 {
+    width: 170px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    background-color: #64C536;
+    position: absolute; /* Đặt vị trí tuyệt đối cho .tt */
+    top: 0; /* Đặt vị trí ở trên cùng */
+    right: 0; /* Đặt vị trí ở bên phải */
+}
+#lichsu3 {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    height: 221px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #0B7AA9;
+    align-items: flex-start;
+    align-items: center;
+    position: relative; /* Đặt vị trí tương đối cho .lichsu */
+}
+#tt3 {
+    width: 170px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    background-color: #0B7AA9;
+    position: absolute; /* Đặt vị trí tuyệt đối cho .tt */
+    top: 0; /* Đặt vị trí ở trên cùng */
+    right: 0; /* Đặt vị trí ở bên phải */
+}
+#lichsu4 {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    height: 221px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #FA7676;
+    align-items: flex-start;
+    align-items: center;
+    position: relative; /* Đặt vị trí tương đối cho .lichsu */
+
+}
+#tt4 {
+    width: 170px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    background-color: #DE9494;
+    position: absolute; /* Đặt vị trí tuyệt đối cho .tt */
+    top: 0; /* Đặt vị trí ở trên cùng */
+    right: 0; /* Đặt vị trí ở bên phải */
+}
+.thongtin p {color: black;
+font-weight: normal;}

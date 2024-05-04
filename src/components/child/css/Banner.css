@@ -1,0 +1,40 @@
+.logo {
+    width: 213px;
+    height: 180px;
+}
+.p1 {
+    color: #A5D6F1; font-weight: bold; font-size: 24px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
+#gioi-thieu {
+    display: flex;
+    justify-content: center; /* Căn các phần tử theo trục ngang (theo chiều ngang của container) */
+    align-items: center; /* Căn các phần tử theo trục dọc (theo chiều dọc của container) */
+  }
+  
+  #gioi-thieu > * {
+    margin: 0 50px; /* Khoảng cách đều nhau giữa các phần tử */
+  }
+  #info-2-2 {
+   
+    display: flex;
+    justify-content: center; /* Căn các phần tử theo trục ngang (theo chiều ngang của container) */
+    align-items: center; /* Căn các phần tử theo trục dọc (theo chiều dọc của container) */
+  }
+  #info-2-1 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  #info-2-1 img,
+  #info-2-1 p,
+  #info-2-2 img,
+  #info-2-2 p {
+    color: #A5D6F1;
+    margin: 0 10px; /* Khoảng cách đều nhau giữa các phần tử trong #info-2-1 và #info-2-2 */
+  }
+ 

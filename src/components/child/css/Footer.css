@@ -1,0 +1,41 @@
+h2 {
+    margin-top: 80px; display: flex; justify-content: center;
+}
+.doi-tac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .doi-tac img {
+    width: 120px;
+    height: 120px;
+    background-color: #fafafa;
+    margin: 20px 40px;
+  }
+  .information {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  .infor {
+    width: 300px;
+    height: 400px;
+    background-color: #d9d9d9; /* Màu nền cho mục đích minh họa */
+    margin: 0 30px;
+    align-items: center;
+    display: flex;
+  }
+  .khung {
+    
+    margin-top: 100px;
+    width: 246px; height: 33.54px; background-color: #A5D6F1; border-top-right-radius: 20px; border-bottom-left-radius: 20px; display: flex; justify-content: center; align-items: center; margin-left: 100px;
+  }
+  p {
+    font-weight: bold; font-size: 20px; color: white;
+  }
+  .foot {
+    width: auto; height: 200px; background-color: #A5D6F1; margin-top: 100px;
+  }

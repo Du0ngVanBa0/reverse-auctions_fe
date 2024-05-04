@@ -1,0 +1,262 @@
+
+
+
+  #thongtincanhan {
+    width: 90%;
+    height: 189px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #A5D6F1;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    margin-bottom: 40px;
+  }
+  #ten_sdt p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #A5D6F1;
+  }
+  #ten_sdt {
+    margin-left: 25px;
+  }
+  #mac_dinh {
+    width: 70px;
+    height: 24px;
+    color: #A5D6F1; /* Màu chữ xanh */
+    background-color: transparent; /* Nền trong suốt */
+    border: 1px solid #A5D6F1; /* Viền xanh */
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+    #thay_doi {
+    color: #A5D6F1; /* Màu chữ xanh */
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Không viền */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 25px;
+    }
+
+
+
+
+
+
+
+    #product {
+        display: flex;
+        width: 90%;
+        height: 635px;
+        border: 1px solid #A5D6F1;
+        border-radius: 10px;
+        background-color: #FAFAFA;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    #ma {
+        display: flex;
+        justify-content: space-between;
+        width: 325px;
+        height: 40px;
+        align-items: center;
+        margin-left: 40px;
+    }
+    #lienhe {
+        width: 158px;
+        height: 37px;
+        background-color: transparent;
+        border-left: 2px solid black; /* Border bên trái xanh */
+        border-top: none; /* Không border ở phía trên */
+        border-right: none; /* Không border ở phía phải */
+        border-bottom: none; /* Không border ở phía dưới */
+        text-decoration: underline; /* Gạch chân dưới chữ */
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #mieuta {
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
+    #mieuta_thongtin {
+        margin-left: 50px;
+    }
+    #mieuta_thongtin p{
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+    #ct {
+        margin-bottom: 30px;
+        background-color: transparent;
+        font-weight: bold;
+        text-decoration: underline;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .giatien {
+        display: flex;
+        width: 90%;
+        height: 56px;
+        border: 1px solid #A5D6F1;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: space-between;
+         margin: 20px auto; 
+       
+    }
+    .giatien div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+        height: 56px;
+        margin-left: 50px;
+        
+    }
+    .nut_tam_giac {
+        background-image: url('../images/Vector.png');
+        width: 20px;
+        height: 20px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .giatien_vnd {
+        margin-right: 200px;
+    }
+
+
+
+    #checkout {
+        width: 90%;
+        height: 93px;
+        border: 1px solid #A5D6F1;
+        background-color: #FAFAFA;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #setting {
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        text-decoration: underline;
+        font-size: 16px;
+        color: #A5D6F1;
+        margin-left: 10px;
+    }
+    #mua {
+        width: 300px;
+        height: 60px;
+        border: none;
+        border-radius: 10px;
+        background-color: #A5D6F1;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 80px;
+    }
+
+
+
+
+
+  .san-pham {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  
+  .item {
+    width: 352px;
+    height: 533px;
+    background-color: white; /* Màu nền cho mục đích minh họa */
+    margin-bottom: 60px; /* Khoảng cách dưới */
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid #BBB8B8 ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Xếp theo chiều dọc */
+    align-items: center; /* Căn các phần tử theo chiều ngang */
+    justify-content: center; /* Căn các phần tử theo chiều dọc */
+  }
+  
+  
+  .gia-kd,
+  .gia-ht {
+    display: flex; /* Sử dụng flexbox */
+    align-items: center; /* Căn các phần tử theo chiều dọc */
+  }
+  
+  .gia-kd p,
+  .gia-ht p {
+    margin: 2px; /* Loại bỏ khoảng cách giữa các đoạn văn bản */
+    color: #BBB8B8;
+    font-weight: bold;
+  }
+  
+  .gia-ht p:first-child {
+    margin-right: 10px; /* Tạo khoảng cách phải giữa 2 đoạn văn bản */
+  }
+  .hinh-san-pham {
+    width: 298px;
+    height: 230px;
+    border: 1px solid #BBB8B8 ;
+    background-color: #FAFAFA;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .chi-tiet {
+    margin-right: 130px;
+    width: 115px;
+    height: 32px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #A5D6F1;
+    border: none;
+  }
+
+
+  
+
+
+
+
+  .doi-tac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .doi-tac img {
+    background-color: #fafafa;
+    margin: 0 30px;
+  }
+  .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  .infor {
+    width: 357px;
+    height: 507px;
+    background-color: #d9d9d9; /* Màu nền cho mục đích minh họa */
+    margin: 0 30px;
+    align-items: center;
+    display: flex;
+  }

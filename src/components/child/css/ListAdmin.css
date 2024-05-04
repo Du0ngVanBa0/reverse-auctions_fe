@@ -1,0 +1,64 @@
+.anh2    {
+    width: 80px;
+    height: 80px;
+    border: solid 1px #000000;
+}
+.table p {color:  black; font-weight: normal;}
+.ten {
+    font-weight: bolder;
+    width: 300px;
+}
+.loai {
+    align-items:center;
+    width: 100px;
+    
+}
+.loai p {
+    text-align: center;
+}
+.gia {
+    align-items:center;
+    width: 150px;
+}
+.gia p{
+    text-align: center;
+}
+.table {
+    padding: 7px;
+    margin: 20px   auto;
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: max-content;
+}
+.table th {text-align: center;}
+.button {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color:  white;
+    font-weight: bolder;
+    margin: 10px;
+}
+.tbhead {
+    border: solid 1px black ;
+}
+.tbhead  {
+    background-color: #ccc; /* Màu nền cho tiêu đề */
+}
+
+.tbbody {
+    background-color: #f2f2f2; /* Màu nền cho phần thân của bảng */
+}
+.tbbody tr:nth-child(1) {
+    background-color: #fff; /* Màu nền cho các hàng chẵn */
+}
+.sua {
+    background-color: #e7e433;
+    
+}
+.xoa {
+    background-color: #ec4b1f;
+    
+}
+.anh2 {margin: 5px;}

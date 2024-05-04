@@ -1,0 +1,14 @@
+.frame {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: max-content;
+    width: 100%;  justify-content: center; align-items: center;
+}
+.frame_p {
+   
+    width: max-content;
+    margin: auto;
+    display: block;
+    color: black;
+    font-size: 30px; font-weight: bold;
+}

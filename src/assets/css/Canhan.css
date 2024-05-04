@@ -1,0 +1,235 @@
+.ttcn {
+    display: flex; 
+    justify-content: space-between; 
+    width: 1224px; height: 509px; 
+    align-items: center; 
+    margin: 0 auto;
+  }
+
+
+
+  .money {
+    width: 403px;
+    height: 509px;
+    border: 1px solid #A5D6F1;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+  }
+  #anh_ca_nhan {
+    width: 80px;
+    height: 80px;
+    background-color: #d9d9d9;
+    border-radius: 100px;
+  }
+  #chonrut {
+    width: 304px; 
+    height: 47px; 
+    position: relative; 
+    display: flex;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+  #R {
+    width: 152px;
+    height: 47px;
+    background-color: #A5D6F1;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+
+  }
+  #Ruttien {
+    width: 152px;
+    height: 47px;
+    border: 1px solid #A5D6F1;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .tk {
+    width: 403px;
+    height: 72px;
+    border-top: 1px solid #A5D6F1;
+    border-bottom: 1px solid #A5D6F1;
+    display: flex;
+    align-items: center;
+  }
+  .tk p {
+    margin-left: 20px;
+  }
+
+
+
+
+  
+
+
+  .mangxahoi {
+    width: 722px;
+    height: 509px;
+    border: 1px solid #A5D6F1;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .ngay_btncapnhap {
+    width: 687px;
+    height: 46px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .thongtinsdt {
+    display: flex;
+    width: 687px;
+    height: 84px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .thongtinsdt p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 100px;
+  }
+  .thongtinsdt button {
+    width: 161px;
+    height: 34px;
+    border-radius: 15px;
+    color: #64C536;
+    border: 1px solid #64C536;
+    background-color: transparent;
+    margin-right: 25px;
+  }
+  .thongtinsdt img {
+    margin-left: 25px;
+  }
+  .face {
+    display: flex;
+    width: 687px;
+    height: 84px;
+    border-bottom: 1px solid #E4E3E3;
+    align-items: center;
+  }
+  .face button {
+    width: 161px;
+    height: 34px;
+    border-radius: 15px;
+    border: 1px solid #EF2828;
+    background-color: transparent;
+    margin-left: 70px;
+  }
+  .face img {
+    margin-left: 25px;
+  }
+  .mail {
+    display: flex;
+    width: 687px;
+    height: 84px;
+    border-bottom: 1px solid #E4E3E3;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mail p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 80px;
+  }
+  .mail button {
+    width: 161px;
+    height: 34px;
+    border-radius: 15px;
+    color: #64C536;
+    border: 1px solid #64C536;
+    background-color: transparent;
+    margin-right: 25px;
+  }
+  .mail img {
+    margin-left: 25px;
+  }
+  .google {
+    display: flex;
+    width: 687px;
+    height: 84px;
+    border-bottom: 1px solid #E4E3E3;
+    align-items: center;
+  }
+  .google button {
+    width: 161px;
+    height: 34px;
+    border-radius: 15px;
+    border: 1px solid #EF2828;
+    background-color: transparent;
+    margin-left: 70px;
+  }
+  .google img {
+    margin-left: 25px;
+  }
+
+
+
+
+  .mua_ban {
+    display: flex; 
+    justify-content: space-between; 
+    width: 1141px; height: 154px; 
+    align-items: center; 
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .chu {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .quantity {
+    width: 230px;
+    height: 149px;
+    background-color: #e3f2f0;
+    display: flex;
+    border: solid 1px #A5D6F1;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .quantity p {
+    font-size: 32px;
+  }
+
+  .money p {color: black; font-size: 16px; font-weight: normal;}
+
+
+
+  .doi-tac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .doi-tac img {
+    background-color: #fafafa;
+    margin: 0 30px;
+  }
+  .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  .infor {
+    width: 357px;
+    height: 507px;
+    background-color: #d9d9d9; /* Màu nền cho mục đích minh họa */
+    margin: 0 30px;
+    align-items: center;
+    display: flex;
+  }
+  .mangxahoi p {color:  black;}
+  .mua_ban p {color: black;}

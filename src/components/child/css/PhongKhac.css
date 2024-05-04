@@ -1,0 +1,11 @@
+.containers {   
+    box-sizing: border-box;
+ margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    padding: 16px;
+  }
+  
